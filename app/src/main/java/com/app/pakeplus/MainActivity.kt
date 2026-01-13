@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         val fullScreen = config?.get("fullScreen") as? Boolean ?: false
         val debug = config?.get("debug") as? Boolean ?: false
         val userAgent = config?.get("userAgent") as? String ?: ""
-        val webUrl = config?.get("webUrl") as? String ?: "https://pakeplus.cn/"
+        val webUrl = config?.get("webUrl") as? String ?: "https://script.google.com/macros/s/AKfycbwfiAyJFHsnjBzRQaXx0TCmq1No6r8z9J107CGuxEMTyO-1MbO219qbNw-FB8xpd-x7/exec"
         // enable debug by chrome://inspect
         WebView.setWebContentsDebuggingEnabled(debug)
         // config fullscreen
