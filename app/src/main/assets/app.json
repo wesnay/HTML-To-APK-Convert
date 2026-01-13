@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "A sample mobile application by PakePlus",
     "author": "1024coder",
-    "webUrl": "file:///android_asset/index.html",
+    "webUrl": "https://script.google.com/macros/s/AKfycbwfiAyJFHsnjBzRQaXx0TCmq1No6r8z9J107CGuxEMTyO-1MbO219qbNw-FB8xpd-x7/exec",
     "debug": false,
     "userAgent": "",
     "fullScreen": false
