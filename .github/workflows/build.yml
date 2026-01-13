@@ -74,8 +74,4 @@ jobs:
                   NAME: ${{ env.NAME }}
                   VERSION: ${{ env.VERSION }}
                   PUBBODY: ${{ env.PUBBODY }}
-            - name: Upload APK
-              uses: actions/upload-artifact@v4
-              with:
-                  name: app-release
-                  path: app/build/outputs/apk/debug/app-debug.apk
+        
